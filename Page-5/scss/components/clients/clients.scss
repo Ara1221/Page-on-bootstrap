@@ -1,0 +1,44 @@
+.clients{
+    background-image: url("./../images/macbook-bg.png");
+    background-repeat: no-repeat;
+    height: 550px;
+    background-position: left;
+    .container{
+        .macbook-wrapper{
+            margin-top: 90px;
+            position: relative;
+            .macbook-wrapper__screen-img{
+                width: 450px;
+                height: 283px;
+                position: absolute;
+                top: 30px;
+                left: 90px;
+            }
+        }
+
+
+
+        .responsive-design{
+            padding-top: 135px;
+            .mini-title{
+                @include miniTitle(inherit);
+                padding-left: 67px;
+            }
+            .content-title{
+                @include title(inherit, 420px);
+                margin: 20px 0 0 65px;
+
+                .point-color{
+                    @extend %point-color;
+                }
+            }
+
+            .responsive-design__text{
+                max-width: 500px;
+                margin: 35px auto;
+            }
+        }
+    }
+
+}
+

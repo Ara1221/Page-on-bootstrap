@@ -1,0 +1,19 @@
+.preview-video{
+  @include blocks-bg(fixed);
+  background-image: url("./../images/preview-bg.png");
+  .container{
+        .preview-video-content {
+          .preview-video-content__title {
+            max-width: 750px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 60px;
+          }
+
+        }
+
+        .try-now-btn-wrapper{
+          @include buttonStyle(center, 18px 95px);
+        }
+      }
+    }

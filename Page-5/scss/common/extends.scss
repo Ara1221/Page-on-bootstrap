@@ -1,0 +1,38 @@
+%blocks-title{
+  font-size: $title-fz;
+}
+
+%point-color{
+  color: $point-color;
+}
+
+
+%miniTitle-style{
+  color: $mini-title-color;
+  margin: 0;
+  font-size: $small-font;
+}
+
+
+%btnStyle{
+  .try-now-btn-wrapper__btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #ff6d6d;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #81d5d5;
+      transition: .3s;
+    }
+  }
+}
+
+
+%blocksBg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}

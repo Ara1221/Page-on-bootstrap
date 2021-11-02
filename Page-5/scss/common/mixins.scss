@@ -1,0 +1,24 @@
+@mixin blocks-bg($bg-attachment){
+  @extend %blocksBg;
+  background-attachment: $bg-attachment;
+}
+
+
+@mixin title($text-align, $max-width){
+  @extend %blocks-title;
+  text-align: $text-align;
+  max-width: $max-width;
+}
+
+@mixin buttonStyle($text-align, $padding){
+  @extend %btnStyle;
+    text-align: $text-align;
+    .try-now-btn-wrapper__btn {
+      padding: $padding;
+    }
+  }
+
+@mixin miniTitle($text-align){
+  @extend %miniTitle-style;
+    text-align: $text-align;
+}

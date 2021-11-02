@@ -1,0 +1,32 @@
+.new-features{
+  @include blocks-bg(inherit);
+  background-image: url("./../images/new-features-bg.png");
+  .container{
+        .new-features-content{
+          margin-bottom: 150px;
+          .mini-title {
+            @include miniTitle(center);
+          }
+          .content-title{
+            @include title(center, 500px);
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+
+
+        .new-features-block{
+          .image-wrapper{
+            margin-bottom: 30px;
+          }
+
+          .text-wrapper__title{
+            font-size: $md-font;
+          }
+          .text-wrapper__text{
+            font-size: $small-font;
+            max-width: 360px;
+
+          }
+        }

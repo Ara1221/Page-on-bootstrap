@@ -1,0 +1,29 @@
+.new-design{
+  background-image: url("./../images/rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 40% 100%;
+  min-height: 720px;
+  background-position: right;
+
+  .container{
+        .new-design-content {
+          .mini-title {
+           @include miniTitle(left);
+          }
+
+          .content-title{
+            @include title(left, 500px);
+            margin-bottom: 50px;
+            .point-color{
+              @extend %point-color;
+            }
+          }
+
+          .new-design-content__text{
+            margin: 35px 0 0 0;
+            max-width: 570px;
+          }
+
+        }
+      }
+    }
