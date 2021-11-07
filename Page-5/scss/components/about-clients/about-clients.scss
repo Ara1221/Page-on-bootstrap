@@ -1,0 +1,25 @@
+.about-clients{
+  @include blocks-bg(fixed);
+  background-image: url("./../images/about-clients-bg.png");
+  height: 650px;
+
+    .image-wrapper{
+      @include image-wrapper(25px);
+    }
+
+    .mini-title{
+      @include miniTitle(center,35px);
+    }
+
+    .text-wrapper__text{
+      @include text-style(320px);
+    }
+
+    .partners-content-wrapper{
+      margin-top: 80px;
+
+      .img-wrapper{
+        padding: 0 80px 0 30px;
+      }
+    }
+  }

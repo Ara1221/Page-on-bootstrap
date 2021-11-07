@@ -1,32 +1,34 @@
-.new-features{
+.new-features {
   @include blocks-bg(inherit);
   background-image: url("./../images/new-features-bg.png");
-  .container{
-        .new-features-content{
-          margin-bottom: 150px;
-          .mini-title {
-            @include miniTitle(center);
-          }
-          .content-title{
-            @include title(center, 500px);
-            margin: 0 auto;
-          }
-        }
-      }
+
+  .new-features-content {
+    margin-bottom: 150px;
+
+    .mini-title {
+      @include miniTitle(center, 0);
     }
 
+    .content-title {
+      @include title(center, 500px);
+      margin: 0 auto;
+    }
+  }
 
-        .new-features-block{
-          .image-wrapper{
-            margin-bottom: 30px;
-          }
 
-          .text-wrapper__title{
-            font-size: $md-font;
-          }
-          .text-wrapper__text{
-            font-size: $small-font;
-            max-width: 360px;
+  .new-features-block {
+    .image-wrapper {
+      @include image-wrapper(30px);
+    }
 
-          }
-        }
+    .text-wrapper__title {
+      font-size: $md-font;
+
+    }
+
+    .text-wrapper__text {
+      @include text-style(360px);
+      font-size: $small-font;
+    }
+  }
+}

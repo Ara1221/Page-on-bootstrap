@@ -2,10 +2,9 @@
     background-image: url("./../images/macbook-bg.png");
     background-repeat: no-repeat;
     height: 550px;
-    background-position: left;
-    .container{
+
         .macbook-wrapper{
-            margin-top: 90px;
+            margin: 90px 0 0 0;
             position: relative;
             .macbook-wrapper__screen-img{
                 width: 450px;
@@ -21,7 +20,7 @@
         .responsive-design{
             padding-top: 135px;
             .mini-title{
-                @include miniTitle(inherit);
+                @include miniTitle(inherit, 0);
                 padding-left: 67px;
             }
             .content-title{
@@ -36,9 +35,10 @@
             .responsive-design__text{
                 max-width: 500px;
                 margin: 35px auto;
+                text-align: left;
             }
         }
     }
 
-}
+
 

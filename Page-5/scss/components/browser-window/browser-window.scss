@@ -1,0 +1,26 @@
+.browser-window{
+  background-color: #f6f5f3;
+  height: 100%;
+
+    .browser-window-title {
+      padding-top: 100px;
+
+      .mini-title {
+        @include miniTitle(center, 0);
+      }
+
+      .content-title {
+        @include title(center, 550px);
+      }
+
+      .text-wrapper__text {
+        @include text-style(650px);
+        padding-top: 45px;
+      }
+    }
+
+      .browser-window-image-wrapper{
+        margin-top: 110px;
+      }
+    }
+

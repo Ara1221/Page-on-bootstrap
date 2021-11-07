@@ -1,0 +1,112 @@
+.all-footer-content-wrapper{
+  position: relative;
+  height: 330px;
+  .triangle {
+    width: 0;
+    height: 100%;
+    border-top: 332px solid #ff8a8a;
+    border-left: 325px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+.footer-content-wrapper {
+  padding-top: 83px;
+
+    .created-footer-input-text-fz {
+      font-size: 22px;
+    }
+
+
+        .start-ex-content-wrapper {
+          .start-ex-content-wrapper__img-text {
+            font-size: 26px;
+          }
+
+          .start-ex-content-wrapper__img {
+            padding-bottom: 10px;
+          }
+
+          .start-ex-content-wrapper__text {
+            max-width: 260px;
+          }
+
+        }
+
+
+
+      .support-title{
+        margin: 0;
+        padding-bottom: 23px;
+      }
+      nav{
+        ul{
+          @extend %ul;
+          li{
+            @extend %li;
+            &:not(:last-child){
+              padding-bottom: 13px;
+            }
+            .footer-link{
+              @extend %footer-links-style;
+            }
+          }
+        }
+      }
+
+
+      .About-Us-title{
+        margin: 0;
+        padding-bottom: 23px;
+      }
+      nav{
+        ul{
+          @extend %ul;
+          li{
+            @extend %li;
+            &:not(:last-child){
+              padding-bottom: 13px;
+            }
+            .footer-link{
+              @extend %footer-links-style;
+            }
+          }
+        }
+      }
+
+
+
+    .footer-input-text{
+      padding-bottom: 25px;
+      position: relative;
+    }
+    .email-input-wrapper {
+      position: relative;
+      .email-input-wrapper__input {
+        @include input-style(inherit, 214px, 11px 15px 11px 30px, $input-footerEmail-bg-color, 1px solid $input-footerEmail-border-color);
+      }
+
+      .footer-input-button{
+        padding: 0;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 160px;
+      }
+
+      ::placeholder {
+        color: #949494;
+      }
+
+    }
+
+    .footer-img-wrapper{
+      padding-top: 20px;
+      .footer-img-wrapper__img{
+        padding-left: 30px;
+      }
+    }
+  }
+}

@@ -18,7 +18,26 @@
     }
   }
 
-@mixin miniTitle($text-align){
+@mixin miniTitle($text-align, $margin-bottom){
   @extend %miniTitle-style;
-    text-align: $text-align;
+  text-align: $text-align;
+  margin-bottom: $margin-bottom;
+}
+
+@mixin image-wrapper($margin-bottom){
+  margin-bottom: $margin-bottom;
+}
+
+@mixin text-style($max-width){
+  @extend %text-styles;
+  max-width: $max-width;
+}
+
+@mixin input-style($color, $width, $padding, $bg, $border){
+  @extend %inputStyle;
+  color: $color;
+  width: $width;
+  padding: $padding;
+  background: $bg;
+  border: $border;
 }

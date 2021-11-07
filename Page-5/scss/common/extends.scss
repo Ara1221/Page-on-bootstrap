@@ -9,7 +9,6 @@
 
 %miniTitle-style{
   color: $mini-title-color;
-  margin: 0;
   font-size: $small-font;
 }
 
@@ -23,7 +22,7 @@
     border-radius: 5px;
 
     &:hover {
-      background-color: #81d5d5;
+      background-color: $-button-and-links-hoverColor;
       transition: .3s;
     }
   }
@@ -35,4 +34,32 @@
   background-size: cover;
   background-position: center center;
   height: 100vh;
+}
+
+
+%text-styles{
+  font-size: $small-font;
+}
+
+%inputStyle{
+  &:hover, :focus {
+    outline: none;
+  }
+  border-radius: 5px;
+}
+
+%footer-links-style{
+  text-decoration: none;
+  color: #717171;
+  &:hover{
+    color: $-button-and-links-hoverColor;
+  }
+}
+
+%ul{
+  padding-left: 0;
+}
+
+%li{
+  list-style: none;
 }

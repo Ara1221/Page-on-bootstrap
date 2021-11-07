@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+  .all-footer-content-wrapper{
+    .footer-content-wrapper{
+      .email-input-wrapper {
+        .footer-input-button{
+          padding: 0;
+          border: none;
+          position: absolute;
+          top: 0;
+          right: 100px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .all-footer-content-wrapper{
+    .footer-content-wrapper{
+      .email-input-wrapper {
+        .footer-input-button{
+          padding: 0;
+          border: none;
+          position: absolute;
+          top: 0;
+          right: 160px;
+        }
+      }
+    }
+  }
+}

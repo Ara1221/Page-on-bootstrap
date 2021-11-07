@@ -5,14 +5,14 @@
   min-height: 720px;
   background-position: right;
 
-  .container{
+
         .new-design-content {
           .mini-title {
-           @include miniTitle(left);
+           @include miniTitle(left, 0);
           }
 
           .content-title{
-            @include title(left, 500px);
+            @include title(left, 505px);
             margin-bottom: 50px;
             .point-color{
               @extend %point-color;
@@ -26,4 +26,3 @@
 
         }
       }
-    }

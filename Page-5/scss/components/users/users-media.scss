@@ -1,0 +1,23 @@
+@media (min-width: 1200px) {
+  .users{
+    .try-now-btn-wrapper{
+      padding-left: 20px;
+      .try-now-btn-wrapper__btn{
+        padding: 17px 0;
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .users{
+
+      .try-now-btn-wrapper::before {
+        position: absolute;
+        top: 200px;
+        right: 350px;
+      }
+    }
+  }

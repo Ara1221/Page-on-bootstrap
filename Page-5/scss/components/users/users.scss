@@ -1,0 +1,46 @@
+.users {
+  background-image: url("./../images/users-bg.png");
+  height: 470px;
+  padding-top: 95px;
+  position: relative;
+
+  .users-content {
+    .mini-title {
+      @include miniTitle(center, 10px);
+    }
+
+    .content-title {
+      padding-bottom: 95px;
+    }
+  }
+
+
+    .input-wrapper {
+      padding-left: 20px;
+
+      .input-wrapper__input {
+        @include input-style(white, 264px, 17px 0 17px 30px, $inputColor, 1px solid $borderColor);
+      }
+
+
+      ::placeholder {
+        color: white;
+      }
+    }
+
+    .try-now-btn-wrapper {
+      @include buttonStyle(inherit, 17px 95px);
+      cursor: pointer;
+    }
+
+    .try-now-btn-wrapper::before {
+      content: url("./../images/free-days.png");
+      position: absolute;
+      top: 200px;
+      right: 360px;
+    }
+  }
+  .terms-and-services{
+    color: #888ca6;
+    padding-top: 50px;
+  }
