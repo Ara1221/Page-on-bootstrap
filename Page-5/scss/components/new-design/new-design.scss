@@ -5,7 +5,6 @@
   min-height: 720px;
   background-position: right;
 
-
         .new-design-content {
           .mini-title {
            @include miniTitle(left, 0);
@@ -25,4 +24,4 @@
           }
 
         }
-      }
+  }

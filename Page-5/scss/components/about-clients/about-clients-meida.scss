@@ -1,5 +1,50 @@
+@media (min-width: 576px) {
+  .about-clients {
+    height: 1200px;
+    .text-wrapper{
+      .text-wrapper__text{
+        margin-bottom: 25px;
+      }
+    }
+    .partners-content-wrapper{
+      .partners-images-wrapper{
+        .img-wrapper{
+          padding: 50px 0 0 4px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .about-clients {
+    height: 650px;
+    .text-wrapper{
+      .text-wrapper__text{
+        margin-bottom: 25px;
+      }
+    }
+    .partners-content-wrapper{
+      .partners-images-wrapper{
+        .img-wrapper{
+          padding: 0 10px 0 30px;
+        }
+      }
+    }
+  }
+}
+
+
 @media (min-width: 992px) {
   .about-clients {
+    height: 650px;
+    .text-wrapper{
+      .text-wrapper__text{
+        margin-bottom: 25px;
+      }
+    }
     .partners-content-wrapper{
       .partners-images-wrapper{
         .img-wrapper{

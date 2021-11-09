@@ -10,11 +10,26 @@
             font-size: 60px;
             font-weight: 100;
           }
-
         }
+
+          .play-btn-wrapper{
+            margin: 50px 0;
+          }
 
         .try-now-btn-wrapper{
           @include buttonStyle(center, 18px 95px);
         }
-      }
 
+    .modal{
+      .modal-dialog{
+        .modal-content{
+          .modal-body{
+            .video{
+              width: 765px;
+              height: 415px;
+            }
+          }
+        }
+      }
+    }
+}

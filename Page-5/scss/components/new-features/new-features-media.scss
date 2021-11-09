@@ -1,0 +1,7 @@
+@media (min-width: 576px) {
+  .new-features{
+    @include blocks-bg(inherit);
+    background-image: url("./../images/new-features-bg.png");
+    height: 1000px;
+  }
+}

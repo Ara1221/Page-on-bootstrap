@@ -1,4 +1,4 @@
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   .clients{
     background-image: inherit;
     .macbook-wrapper{
@@ -8,12 +8,68 @@
         width: 530px;
         height: 267px;
       }
-      .macbook-wrapper__screen-img{
-        width: 378px;
-        height: 204px;
-        position: absolute;
-        top: 23px;
-        left: 281px;
+    }
+
+    .responsive-design{
+      padding-top: 0;
+      text-align: center;
+
+      .mini-title{
+        padding: 25px 0 0 0;
+      }
+      .content-title{
+        margin: 0 auto;
+      }
+
+      .responsive-design__text{
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .clients{
+    background-image: inherit;
+    .macbook-wrapper{
+      margin-top: 10px;
+      text-align: center;
+      .macbook-wrapper__img{
+        width: 530px;
+        height: 267px;
+      }
+    }
+
+    .responsive-design{
+      padding-top: 0;
+      text-align: center;
+
+      .mini-title{
+        padding: 25px 0 0 0;
+      }
+      .content-title{
+        margin: 0 auto;
+      }
+
+      .responsive-design__text{
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 992px) {
+  .clients{
+    background-image: inherit;
+    .macbook-wrapper{
+      margin-top: 10px;
+      text-align: center;
+      .macbook-wrapper__img{
+        width: 530px;
+        height: 267px;
       }
     }
 
@@ -43,12 +99,9 @@
     .macbook-wrapper{
       padding-left: 25px;
       margin: 0;
-
-      .macbook-wrapper__screen-img{
-        width: 383px;
-        position: absolute;
-        top: 24px;
-        left: 100px;
+      .macbook-wrapper__img{
+        width: 630px;
+        height: 367px;
       }
     }
 
@@ -82,14 +135,6 @@
       .macbook-wrapper__img{
         width: 630px;
         height: 367px;
-      }
-
-      .macbook-wrapper__screen-img{
-        width: 450px;
-        height: 283px;
-        position: absolute;
-        top: 30px;
-        left: 117px;
       }
     }
 

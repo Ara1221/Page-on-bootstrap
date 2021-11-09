@@ -2,16 +2,13 @@
   background-image: url("./../images/users-bg.png");
   height: 470px;
   padding-top: 95px;
-  position: relative;
 
   .users-content {
+    padding-bottom: 95px;
     .mini-title {
       @include miniTitle(center, 10px);
     }
 
-    .content-title {
-      padding-bottom: 95px;
-    }
   }
 
 
@@ -31,16 +28,22 @@
     .try-now-btn-wrapper {
       @include buttonStyle(inherit, 17px 95px);
       cursor: pointer;
+      position: relative;
     }
 
-    .try-now-btn-wrapper::before {
+    .try-now-btn-wrapper::after {
       content: url("./../images/free-days.png");
       position: absolute;
-      top: 200px;
-      right: 360px;
+      top: -60px;
+      right: 60px;
     }
   }
   .terms-and-services{
     color: #888ca6;
     padding-top: 50px;
+
+    .terms-and-services__link{
+      color: white;
+    }
   }
+

@@ -22,7 +22,7 @@
   font-style: normal;
   font-display: swap;
 }
-.browser-window .browser-window-title .content-title, .clients .responsive-design .content-title, .new-features .new-features-content .content-title, .new-design .new-design-content .content-title {
+.browser-window .content-title, .clients .responsive-design .content-title, .new-features .new-features-content .content-title, .new-design .new-design-content .content-title {
   font-size: 40px;
 }
 
@@ -30,7 +30,7 @@
   color: #ff6d6d;
 }
 
-.users .users-content .mini-title, .browser-window .browser-window-title .mini-title, .about-clients .mini-title, .clients .responsive-design .mini-title, .new-features .new-features-content .mini-title, .new-design .new-design-content .mini-title {
+.users .users-content .mini-title, .browser-window .mini-title, .about-clients .mini-title, .clients .responsive-design .mini-title, .new-features .new-features-content .mini-title, .new-design .new-design-content .mini-title {
   color: #ff6d6d;
   font-size: 16px;
 }
@@ -54,7 +54,7 @@
   height: 100vh;
 }
 
-.browser-window .browser-window-title .text-wrapper__text, .about-clients .text-wrapper__text, .new-features .new-features-block .text-wrapper__text {
+.browser-window .text-wrapper__text, .about-clients .text-wrapper__text, .new-features .new-features-block .text-wrapper__text {
   font-size: 16px;
 }
 
@@ -108,13 +108,100 @@ label {
   font-size: 60px;
   font-weight: 100;
 }
+.preview-video .play-btn-wrapper {
+  margin: 50px 0;
+}
 .preview-video .try-now-btn-wrapper {
   text-align: center;
 }
 .preview-video .try-now-btn-wrapper .try-now-btn-wrapper__btn {
   padding: 18px 95px;
 }
+.preview-video .modal .modal-dialog .modal-content .modal-body .video {
+  width: 765px;
+  height: 415px;
+}
 
+@media (min-width: 576px) {
+  .preview-video .preview-video-content .preview-video-content__title {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+  }
+  .preview-video .preview-video-content .play-btn-wrapper {
+    margin: 0;
+  }
+  .preview-video .modal .modal-dialog .modal-content .modal-body .video {
+    width: 465px;
+    height: 480px;
+  }
+}
+@media (min-width: 768px) {
+  .preview-video .preview-video-content .preview-video-content__title {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+  }
+  .preview-video .play-btn-wrapper {
+    margin: 50px 0;
+  }
+  .preview-video .modal .modal-dialog .modal-content .modal-body .video {
+    width: 465px;
+    height: 480px;
+  }
+}
+@media (min-width: 992px) {
+  .preview-video .preview-video-content .preview-video-content__title {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+  }
+  .preview-video .play-btn-wrapper {
+    margin: 50px 0;
+  }
+  .preview-video .modal .modal-dialog .modal-content .modal-body .video {
+    width: 765px;
+    height: 415px;
+  }
+}
+@media (min-width: 1200px) {
+  .preview-video .preview-video-content .preview-video-content__title {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+  }
+  .preview-video .play-btn-wrapper {
+    margin: 50px 0;
+  }
+  .preview-video .modal .modal-dialog .modal-content .modal-body .video {
+    width: 765px;
+    height: 415px;
+  }
+}
+@media (min-width: 1400px) {
+  .preview-video .preview-video-content .preview-video-content__title {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+  }
+  .preview-video .play-btn-wrapper {
+    margin: 50px 0;
+  }
+  .preview-video .modal .modal-dialog .modal-content .modal-body .video {
+    width: 765px;
+    height: 415px;
+  }
+}
 .new-design {
   background-image: url("./../images/rectangle.png");
   background-repeat: no-repeat;
@@ -163,6 +250,13 @@ label {
   font-size: 16px;
 }
 
+@media (min-width: 576px) {
+  .new-features {
+    background-attachment: inherit;
+    background-image: url("./../images/new-features-bg.png");
+    height: 1000px;
+  }
+}
 .clients {
   background-image: url("./../images/macbook-bg.png");
   background-repeat: no-repeat;
@@ -171,13 +265,6 @@ label {
 .clients .macbook-wrapper {
   margin: 90px 0 0 0;
   position: relative;
-}
-.clients .macbook-wrapper .macbook-wrapper__screen-img {
-  width: 450px;
-  height: 283px;
-  position: absolute;
-  top: 30px;
-  left: 90px;
 }
 .clients .responsive-design {
   padding-top: 135px;
@@ -194,11 +281,11 @@ label {
 }
 .clients .responsive-design .responsive-design__text {
   max-width: 500px;
-  margin: 35px auto;
+  margin: 35px auto 0;
   text-align: left;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   .clients {
     background-image: inherit;
   }
@@ -210,12 +297,57 @@ label {
     width: 530px;
     height: 267px;
   }
-  .clients .macbook-wrapper .macbook-wrapper__screen-img {
-    width: 378px;
-    height: 204px;
-    position: absolute;
-    top: 23px;
-    left: 281px;
+  .clients .responsive-design {
+    padding-top: 0;
+    text-align: center;
+  }
+  .clients .responsive-design .mini-title {
+    padding: 25px 0 0 0;
+  }
+  .clients .responsive-design .content-title {
+    margin: 0 auto;
+  }
+  .clients .responsive-design .responsive-design__text {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .clients {
+    background-image: inherit;
+  }
+  .clients .macbook-wrapper {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .clients .macbook-wrapper .macbook-wrapper__img {
+    width: 530px;
+    height: 267px;
+  }
+  .clients .responsive-design {
+    padding-top: 0;
+    text-align: center;
+  }
+  .clients .responsive-design .mini-title {
+    padding: 25px 0 0 0;
+  }
+  .clients .responsive-design .content-title {
+    margin: 0 auto;
+  }
+  .clients .responsive-design .responsive-design__text {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .clients {
+    background-image: inherit;
+  }
+  .clients .macbook-wrapper {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .clients .macbook-wrapper .macbook-wrapper__img {
+    width: 530px;
+    height: 267px;
   }
   .clients .responsive-design {
     padding-top: 0;
@@ -240,11 +372,9 @@ label {
     padding-left: 25px;
     margin: 0;
   }
-  .clients .macbook-wrapper .macbook-wrapper__screen-img {
-    width: 383px;
-    position: absolute;
-    top: 24px;
-    left: 100px;
+  .clients .macbook-wrapper .macbook-wrapper__img {
+    width: 630px;
+    height: 367px;
   }
   .clients .responsive-design {
     padding: 35px 0 0 76px;
@@ -271,13 +401,6 @@ label {
   .clients .macbook-wrapper .macbook-wrapper__img {
     width: 630px;
     height: 367px;
-  }
-  .clients .macbook-wrapper .macbook-wrapper__screen-img {
-    width: 450px;
-    height: 283px;
-    position: absolute;
-    top: 30px;
-    left: 117px;
   }
   .clients .responsive-design .mini-title {
     text-align: left;
@@ -308,7 +431,35 @@ label {
   padding: 0 80px 0 30px;
 }
 
+@media (min-width: 576px) {
+  .about-clients {
+    height: 1200px;
+  }
+  .about-clients .text-wrapper .text-wrapper__text {
+    margin-bottom: 25px;
+  }
+  .about-clients .partners-content-wrapper .partners-images-wrapper .img-wrapper {
+    padding: 50px 0 0 4px;
+  }
+}
+@media (min-width: 768px) {
+  .about-clients {
+    height: 650px;
+  }
+  .about-clients .text-wrapper .text-wrapper__text {
+    margin-bottom: 25px;
+  }
+  .about-clients .partners-content-wrapper .partners-images-wrapper .img-wrapper {
+    padding: 0 10px 0 30px;
+  }
+}
 @media (min-width: 992px) {
+  .about-clients {
+    height: 650px;
+  }
+  .about-clients .text-wrapper .text-wrapper__text {
+    margin-bottom: 25px;
+  }
   .about-clients .partners-content-wrapper .partners-images-wrapper .img-wrapper {
     padding: 0 57px 0 30px;
   }
@@ -316,19 +467,17 @@ label {
 .browser-window {
   background-color: #f6f5f3;
   height: 100%;
-}
-.browser-window .browser-window-title {
   padding-top: 100px;
 }
-.browser-window .browser-window-title .mini-title {
+.browser-window .mini-title {
   text-align: center;
   margin-bottom: 0;
 }
-.browser-window .browser-window-title .content-title {
+.browser-window .content-title {
   text-align: center;
   max-width: 550px;
 }
-.browser-window .browser-window-title .text-wrapper__text {
+.browser-window .text-wrapper__text {
   max-width: 650px;
   padding-top: 45px;
 }
@@ -336,18 +485,42 @@ label {
   margin-top: 110px;
 }
 
+@media (min-width: 576px) {
+  .browser-window .browser-window-image-wrapper .browser-window-image-wrapper__img {
+    width: 500px;
+  }
+}
+@media (min-width: 768px) {
+  .browser-window .browser-window-image-wrapper .browser-window-image-wrapper__img {
+    width: 620px;
+  }
+}
+@media (min-width: 992px) {
+  .browser-window .browser-window-image-wrapper .browser-window-image-wrapper__img {
+    width: 820px;
+  }
+}
+@media (min-width: 1200px) {
+  .browser-window .browser-window-image-wrapper .browser-window-image-wrapper__img {
+    width: 820px;
+  }
+}
+@media (min-width: 1400px) {
+  .browser-window .browser-window-image-wrapper .browser-window-image-wrapper__img {
+    width: 820px;
+  }
+}
 .users {
   background-image: url("./../images/users-bg.png");
   height: 470px;
   padding-top: 95px;
-  position: relative;
+}
+.users .users-content {
+  padding-bottom: 95px;
 }
 .users .users-content .mini-title {
   text-align: center;
   margin-bottom: 10px;
-}
-.users .users-content .content-title {
-  padding-bottom: 95px;
 }
 .users .input-wrapper {
   padding-left: 20px;
@@ -365,41 +538,155 @@ label {
 .users .try-now-btn-wrapper {
   text-align: inherit;
   cursor: pointer;
+  position: relative;
 }
 .users .try-now-btn-wrapper .try-now-btn-wrapper__btn {
   padding: 17px 95px;
 }
-.users .try-now-btn-wrapper::before {
+.users .try-now-btn-wrapper::after {
   content: url("./../images/free-days.png");
   position: absolute;
-  top: 200px;
-  right: 360px;
+  top: -60px;
+  right: 60px;
 }
 
 .terms-and-services {
   color: #888ca6;
   padding-top: 50px;
 }
+.terms-and-services .terms-and-services__link {
+  color: white;
+}
 
-@media (min-width: 1200px) {
-  .users .try-now-btn-wrapper {
-    padding-left: 20px;
+@media (min-width: 576px) {
+  .users {
+    padding-top: 10px;
   }
-  .users .try-now-btn-wrapper .try-now-btn-wrapper__btn {
+  .users .users-content {
+    padding-bottom: 14px;
+  }
+  .users .users-form .input-wrapper {
+    padding: 0 0 21px 0;
+  }
+  .users .users-form .input-wrapper .input-wrapper__input {
+    width: 100%;
+  }
+  .users .users-form .try-now-btn-wrapper {
+    padding-top: 50px;
+  }
+  .users .users-form .try-now-btn-wrapper .try-now-btn-wrapper__btn {
+    width: 100%;
+  }
+  .users .users-form .try-now-btn-wrapper::after {
+    content: url("./../images/free-days.png");
+    position: absolute;
+    top: 3px;
+    right: 20px;
+  }
+  .users .terms-and-services {
+    color: #888ca6;
+    padding-top: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .users {
+    padding-top: 10px;
+  }
+  .users .users-content {
+    padding-bottom: 14px;
+  }
+  .users .users-form .input-wrapper {
+    padding: 0 0 21px 0;
+  }
+  .users .users-form .input-wrapper .input-wrapper__input {
+    width: 100%;
+  }
+  .users .users-form .try-now-btn-wrapper {
+    padding-top: 50px;
+  }
+  .users .users-form .try-now-btn-wrapper .try-now-btn-wrapper__btn {
+    width: 100%;
+  }
+  .users .users-form .try-now-btn-wrapper::after {
+    content: url("./../images/free-days.png");
+    position: absolute;
+    top: 3px;
+    right: 232px;
+  }
+  .users .terms-and-services {
+    color: #888ca6;
+    padding-top: 3px;
+  }
+}
+@media (min-width: 992px) {
+  .users {
+    padding-top: 10px;
+  }
+  .users .users-content {
+    padding-bottom: 55px;
+  }
+  .users .users-form .input-wrapper {
+    padding: 0 0 21px 0;
+  }
+  .users .users-form .input-wrapper .input-wrapper__input {
+    width: 100%;
+  }
+  .users .users-form .try-now-btn-wrapper {
+    padding-top: 50px;
+  }
+  .users .users-form .try-now-btn-wrapper .try-now-btn-wrapper__btn {
+    width: 100%;
+  }
+  .users .users-form .try-now-btn-wrapper::after {
+    content: url("./../images/free-days.png");
+    position: absolute;
+    top: 3px;
+    right: 232px;
+  }
+  .users .terms-and-services {
+    color: #888ca6;
+    padding-top: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .users {
+    padding-top: 95px;
+  }
+  .users .users-content {
+    padding-bottom: 95px;
+  }
+  .users .users-form .try-now-btn-wrapper {
+    padding: 0 0 0 20px;
+  }
+  .users .users-form .try-now-btn-wrapper .try-now-btn-wrapper__btn {
     padding: 17px 0;
     width: 100%;
   }
+  .users .users-form .try-now-btn-wrapper::after {
+    content: url("./../images/free-days.png");
+    position: absolute;
+    top: -60px;
+    right: 15px;
+  }
 }
 @media (min-width: 1400px) {
-  .users .try-now-btn-wrapper::before {
+  .users {
+    padding-top: 95px;
+  }
+  .users .users-form .try-now-btn-wrapper::after {
     position: absolute;
-    top: 200px;
-    right: 350px;
+    top: -60px;
+    right: 60px;
+  }
+  .users .terms-and-services {
+    color: #888ca6;
+    padding-top: 50px;
   }
 }
 .all-footer-content-wrapper {
   position: relative;
   height: 330px;
+  padding-top: 83px;
 }
 .all-footer-content-wrapper .triangle {
   width: 0;
@@ -410,9 +697,6 @@ label {
   top: 0;
   right: 0;
   z-index: -1;
-}
-.all-footer-content-wrapper .footer-content-wrapper {
-  padding-top: 83px;
 }
 .all-footer-content-wrapper .footer-content-wrapper .created-footer-input-text-fz {
   font-size: 22px;
@@ -471,7 +755,73 @@ label {
   padding-left: 30px;
 }
 
+@media (min-width: 576px) {
+  .all-footer-content-wrapper {
+    padding-top: 20px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-input-text {
+    padding-bottom: 5px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .email-input-wrapper .footer-input-button {
+    padding: 0;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 205px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-img-wrapper {
+    padding-top: 10px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-img-wrapper .footer-img-wrapper__img {
+    padding-left: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .all-footer-content-wrapper {
+    padding-top: 20px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-input-text {
+    padding-bottom: 5px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .email-input-wrapper .footer-input-button {
+    padding: 0;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 205px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-img-wrapper {
+    padding-top: 10px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-img-wrapper .footer-img-wrapper__img {
+    padding-left: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .all-footer-content-wrapper {
+    padding-top: 20px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-input-text {
+    padding-bottom: 5px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .email-input-wrapper .footer-input-button {
+    padding: 0;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 205px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-img-wrapper {
+    padding-top: 10px;
+  }
+}
 @media (min-width: 1200px) {
+  .all-footer-content-wrapper {
+    padding-top: 83px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-input-text {
+    padding-bottom: 25px;
+  }
   .all-footer-content-wrapper .footer-content-wrapper .email-input-wrapper .footer-input-button {
     padding: 0;
     border: none;
@@ -479,14 +829,32 @@ label {
     top: 0;
     right: 100px;
   }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-img-wrapper {
+    padding-top: 20px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-img-wrapper .footer-img-wrapper__img {
+    padding-left: 30px;
+  }
 }
 @media (min-width: 1400px) {
+  .all-footer-content-wrapper {
+    padding-top: 83px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-input-text {
+    padding-bottom: 25px;
+  }
   .all-footer-content-wrapper .footer-content-wrapper .email-input-wrapper .footer-input-button {
     padding: 0;
     border: none;
     position: absolute;
     top: 0;
     right: 160px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-img-wrapper {
+    padding-top: 20px;
+  }
+  .all-footer-content-wrapper .footer-content-wrapper .footer-img-wrapper .footer-img-wrapper__img {
+    padding-left: 30px;
   }
 }
 

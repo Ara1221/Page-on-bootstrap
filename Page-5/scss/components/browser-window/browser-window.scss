@@ -1,9 +1,9 @@
 .browser-window{
   background-color: #f6f5f3;
   height: 100%;
+  padding-top: 100px;
 
-    .browser-window-title {
-      padding-top: 100px;
+
 
       .mini-title {
         @include miniTitle(center, 0);
@@ -17,7 +17,7 @@
         @include text-style(650px);
         padding-top: 45px;
       }
-    }
+
 
       .browser-window-image-wrapper{
         margin-top: 110px;

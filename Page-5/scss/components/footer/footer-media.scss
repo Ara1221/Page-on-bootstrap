@@ -1,6 +1,89 @@
+@media (min-width: 576px) {
+  .all-footer-content-wrapper{
+    padding-top: 20px;
+    .footer-content-wrapper{
+      .footer-input-text{
+        padding-bottom: 5px;
+      }
+      .email-input-wrapper {
+        .footer-input-button {
+          padding: 0;
+          border: none;
+          position: absolute;
+          top: 0;
+          left: 205px;
+        }
+      }
+      .footer-img-wrapper{
+        padding-top: 10px;
+        .footer-img-wrapper__img{
+          padding-left: 18px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .all-footer-content-wrapper{
+    padding-top: 20px;
+    .footer-content-wrapper{
+      .footer-input-text{
+        padding-bottom: 5px;
+      }
+      .email-input-wrapper {
+        .footer-input-button {
+          padding: 0;
+          border: none;
+          position: absolute;
+          top: 0;
+          left: 205px;
+        }
+      }
+      .footer-img-wrapper{
+        padding-top: 10px;
+        .footer-img-wrapper__img{
+          padding-left: 18px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 992px) {
+  .all-footer-content-wrapper{
+    padding-top: 20px;
+    .footer-content-wrapper{
+      .footer-input-text{
+        padding-bottom: 5px;
+      }
+      .email-input-wrapper {
+        .footer-input-button {
+            padding: 0;
+            border: none;
+            position: absolute;
+            top: 0;
+            left: 205px;
+        }
+      }
+      .footer-img-wrapper{
+        padding-top: 10px;
+      }
+    }
+  }
+}
+
+
+
 @media (min-width: 1200px) {
   .all-footer-content-wrapper{
+    padding-top: 83px;
     .footer-content-wrapper{
+      .footer-input-text{
+        padding-bottom: 25px;
+      }
       .email-input-wrapper {
         .footer-input-button{
           padding: 0;
@@ -10,6 +93,12 @@
           right: 100px;
         }
       }
+      .footer-img-wrapper{
+        padding-top: 20px;
+        .footer-img-wrapper__img{
+          padding-left: 30px;
+        }
+      }
     }
   }
 }
@@ -17,7 +106,11 @@
 
 @media (min-width: 1400px) {
   .all-footer-content-wrapper{
+    padding-top: 83px;
     .footer-content-wrapper{
+      .footer-input-text{
+        padding-bottom: 25px;
+      }
       .email-input-wrapper {
         .footer-input-button{
           padding: 0;
@@ -25,6 +118,12 @@
           position: absolute;
           top: 0;
           right: 160px;
+        }
+      }
+      .footer-img-wrapper{
+        padding-top: 20px;
+        .footer-img-wrapper__img{
+          padding-left: 30px;
         }
       }
     }

@@ -6,13 +6,6 @@
         .macbook-wrapper{
             margin: 90px 0 0 0;
             position: relative;
-            .macbook-wrapper__screen-img{
-                width: 450px;
-                height: 283px;
-                position: absolute;
-                top: 30px;
-                left: 90px;
-            }
         }
 
 
@@ -34,7 +27,7 @@
 
             .responsive-design__text{
                 max-width: 500px;
-                margin: 35px auto;
+                margin: 35px auto 0;
                 text-align: left;
             }
         }
