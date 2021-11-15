@@ -1,5 +1,22 @@
-@media (min-width: 576px) {
+@media (max-width: 768px) {
   .new-features{
+    height: 800px;
+
+    .image-wrapper{
+      margin: 10px 0;
+    }
+
+    .new-features-content{
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .new-features{
+    .image-wrapper{
+      margin: 20px 0;
+    }
     @include blocks-bg(inherit);
     background-image: url("./../images/new-features-bg.png");
     height: 1000px;

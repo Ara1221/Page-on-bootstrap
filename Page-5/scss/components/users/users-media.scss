@@ -1,4 +1,113 @@
-@media (min-width: 576px) {
+@media (max-width: 1400px) {
+  .users {
+    padding-top: 95px;
+
+    .users-form {
+      .try-now-btn-wrapper {
+        padding: 0 0 0 20px;
+
+        .try-now-btn-wrapper__btn {
+          padding: 17px 0;
+          width: 100%;
+        }
+      }
+
+      .try-now-btn-wrapper::after {
+        position: absolute;
+        top: -60px;
+        right: 15px;
+      }
+    }
+
+    .terms-and-services {
+      color: #888ca6;
+      padding-top: 50px;
+    }
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+  .users{
+    padding-top: 30px;
+    .users-content{
+      padding-bottom: 30px;
+    }
+    .users-form {
+      .input-wrapper{
+        padding-top: 15px;
+        .input-wrapper__input{
+          width: 100%;
+        }
+      }
+      .try-now-btn-wrapper {
+        padding: 60px 0 0 20px;
+
+        .try-now-btn-wrapper__btn {
+          padding: 17px 0;
+          width: 100%;
+        }
+      }
+
+      .try-now-btn-wrapper::after {
+        content: url("./../images/free-days.png");
+        position: absolute;
+        top: 15px;
+        right: 215px;
+      }
+    }
+    .terms-and-services{
+      padding-top: 30px;
+    }
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  .users {
+    padding-top: 10px;
+
+    .users-content {
+      padding-bottom: 15px;
+    }
+
+    .users-form {
+      .input-wrapper {
+        padding: 0 0 21px 0;
+
+        .input-wrapper__input {
+          width: 100%;
+        }
+      }
+
+      .try-now-btn-wrapper {
+        padding-top: 50px;
+
+        .try-now-btn-wrapper__btn {
+          width: 100%;
+        }
+      }
+
+      .try-now-btn-wrapper::after {
+        content: url("./../images/free-days.png");
+        position: absolute;
+        top: 3px;
+        right: 232px;
+      }
+    }
+
+    .terms-and-services {
+      color: #888ca6;
+      padding-top: 0;
+    }
+  }
+}
+
+
+
+@media (max-width: 768px) {
   .users {
     padding-top: 10px;
 
@@ -16,7 +125,50 @@
       }
 
       .try-now-btn-wrapper {
-        padding-top: 50px;
+        padding: 50px 0 0 0;
+
+        .try-now-btn-wrapper__btn {
+          width: 100%;
+        }
+      }
+
+      .try-now-btn-wrapper::after {
+        content: url("./../images/free-days.png");
+        position: absolute;
+        top: 3px;
+        right: 232px;
+      }
+    }
+
+    .terms-and-services {
+      color: #888ca6;
+      padding-top: 3px;
+    }
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .users {
+    padding-top: 10px;
+    height: 560px;
+
+    .users-content {
+      padding-bottom: 14px;
+    }
+
+    .users-form {
+      .input-wrapper {
+        padding: 0 0 21px 0;
+
+        .input-wrapper__input {
+          width: 100%;
+        }
+      }
+
+      .try-now-btn-wrapper {
+        padding: 50px 0 0 0;
 
         .try-now-btn-wrapper__btn {
           width: 100%;
@@ -33,139 +185,7 @@
 
     .terms-and-services {
       color: #888ca6;
-      padding-top: 3px;
-    }
-  }
-}
-
-
-
-@media (min-width: 768px) {
-  .users {
-    padding-top: 10px;
-
-    .users-content {
-      padding-bottom: 14px;
-    }
-
-    .users-form {
-      .input-wrapper {
-        padding: 0 0 21px 0;
-
-        .input-wrapper__input {
-          width: 100%;
-        }
-      }
-
-      .try-now-btn-wrapper {
-        padding-top: 50px;
-
-        .try-now-btn-wrapper__btn {
-          width: 100%;
-        }
-      }
-
-      .try-now-btn-wrapper::after {
-        content: url("./../images/free-days.png");
-        position: absolute;
-        top: 3px;
-        right: 232px;
-      }
-    }
-
-    .terms-and-services {
-      color: #888ca6;
-      padding-top: 3px;
-    }
-  }
-}
-
-
-@media (min-width: 992px) {
-  .users {
-    padding-top: 10px;
-
-    .users-content {
-      padding-bottom: 55px;
-    }
-
-    .users-form {
-      .input-wrapper {
-        padding: 0 0 21px 0;
-
-        .input-wrapper__input {
-          width: 100%;
-        }
-      }
-
-      .try-now-btn-wrapper {
-        padding-top: 50px;
-
-        .try-now-btn-wrapper__btn {
-          width: 100%;
-        }
-      }
-
-      .try-now-btn-wrapper::after {
-        content: url("./../images/free-days.png");
-        position: absolute;
-        top: 3px;
-        right: 232px;
-      }
-    }
-
-    .terms-and-services {
-      color: #888ca6;
       padding-top: 30px;
     }
   }
 }
-
-
-
-
-@media (min-width: 1200px) {
-  .users{
-    padding-top: 95px;
-    .users-content{
-      padding-bottom: 95px;
-    }
-    .users-form {
-      .try-now-btn-wrapper {
-        padding: 0 0 0 20px;
-
-        .try-now-btn-wrapper__btn {
-          padding: 17px 0;
-          width: 100%;
-        }
-      }
-
-      .try-now-btn-wrapper::after {
-        content: url("./../images/free-days.png");
-        position: absolute;
-        top: -60px;
-        right: 15px;
-      }
-    }
-  }
-}
-
-
-@media (min-width: 1400px) {
-  .users {
-    padding-top: 95px;
-
-    .users-form {
-      .try-now-btn-wrapper::after {
-        position: absolute;
-        top: -60px;
-        right: 60px;
-      }
-    }
-
-    .terms-and-services {
-      color: #888ca6;
-      padding-top: 50px;
-    }
-  }
-  }

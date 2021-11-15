@@ -1,7 +1,15 @@
 .clients{
-    background-image: url("./../images/macbook-bg.png");
-    background-repeat: no-repeat;
-    height: 550px;
+    position: relative;
+    .triangle {
+        width: 0;
+        height: 0;
+        border-bottom: 457px solid #fb8686;
+        border-right: 650px solid transparent;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
 
         .macbook-wrapper{
             margin: 90px 0 0 0;

@@ -1,4 +1,136 @@
-@media (min-width: 576px) {
+@media (max-width: 1400px) {
+  .preview-video {
+    .preview-video-content {
+      .preview-video-content__title {
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 100;
+      }
+
+    }
+
+    .play-btn-wrapper{
+      margin: 50px 0;
+    }
+
+    .modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            .video {
+              width: 765px;
+              height: 415px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .preview-video {
+    .preview-video-content {
+      .preview-video-content__title {
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 100;
+      }
+
+    }
+
+    .play-btn-wrapper{
+      margin: 50px 0;
+    }
+
+    .modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            .video {
+              width: 765px;
+              height: 415px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+  .preview-video {
+    .preview-video-content {
+      .preview-video-content__title {
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 100;
+      }
+
+    }
+
+    .play-btn-wrapper{
+      margin: 50px 0;
+    }
+
+    .modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            .video {
+              width: 468px;
+              height: 354px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .preview-video {
+    .preview-video-content {
+      .preview-video-content__title {
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 100;
+      }
+
+    }
+
+    .play-btn-wrapper{
+      margin: 50px 0;
+    }
+
+    .modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            .video {
+              width: 465px;
+              height: 354px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 576px) {
   .preview-video {
     .preview-video-content {
       .preview-video-content__title {
@@ -18,139 +150,8 @@
         .modal-content {
           .modal-body {
             .video {
-              width: 465px;
-              height: 480px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-
-
-@media (min-width: 768px) {
-  .preview-video {
-    .preview-video-content {
-      .preview-video-content__title {
-        max-width: 750px;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 60px;
-        font-weight: 100;
-      }
-
-    }
-
-    .play-btn-wrapper{
-      margin: 50px 0;
-    }
-
-    .modal {
-      .modal-dialog {
-        .modal-content {
-          .modal-body {
-            .video {
-              width: 465px;
-              height: 480px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 992px) {
-  .preview-video {
-    .preview-video-content {
-      .preview-video-content__title {
-        max-width: 750px;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 60px;
-        font-weight: 100;
-      }
-
-    }
-
-    .play-btn-wrapper{
-      margin: 50px 0;
-    }
-
-    .modal {
-      .modal-dialog {
-        .modal-content {
-          .modal-body {
-            .video {
-              width: 765px;
-              height: 415px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-
-@media (min-width: 1200px) {
-  .preview-video {
-    .preview-video-content {
-      .preview-video-content__title {
-        max-width: 750px;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 60px;
-        font-weight: 100;
-      }
-
-    }
-
-    .play-btn-wrapper{
-      margin: 50px 0;
-    }
-
-    .modal {
-      .modal-dialog {
-        .modal-content {
-          .modal-body {
-            .video {
-              width: 765px;
-              height: 415px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 1400px) {
-  .preview-video {
-    .preview-video-content {
-      .preview-video-content__title {
-        max-width: 750px;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 60px;
-        font-weight: 100;
-      }
-
-    }
-
-    .play-btn-wrapper{
-      margin: 50px 0;
-    }
-
-    .modal {
-      .modal-dialog {
-        .modal-content {
-          .modal-body {
-            .video {
-              width: 765px;
-              height: 415px;
+              width: 278px;
+              height: 225px;
             }
           }
         }
